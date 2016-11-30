@@ -1,5 +1,5 @@
 ---
-title: esxi_sense_decode - 解析VMware ESXi/ESX中SCSI感知代码的工具
+title: 解析VMware ESXi/ESX中SCSI感知代码的工具 - esxi_sense_decode
 date: 2016-11-26 21:05:44
 tags:
 ---

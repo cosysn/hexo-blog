@@ -1,6 +1,6 @@
 ---
 title: >-
-  hexo deploy时遇到fatal: Not a git repository (or any of the parent directories):
+  使用hexo deploy时遇到fatal: Not a git repository (or any of the parent directories):
   .git的错误
 date: 2016-11-26 22:33:27
 tags:
