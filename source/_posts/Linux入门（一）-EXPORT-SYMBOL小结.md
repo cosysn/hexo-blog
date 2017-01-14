@@ -1,5 +1,5 @@
 ---
-title: Linux入门（一） -- EXPORT_SYMBOL小结
+title: Linux内核入门（一） -- EXPORT_SYMBOL小结
 date: 2016-11-12 02:30:35
 tags:
 ---
