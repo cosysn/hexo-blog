@@ -5,7 +5,7 @@
 # Site
 title: 楼兰故居
 subtitle:
-description: 天行健，君子以自强不息。
+description: 天行健，君子以自强不息。地势坤，君子以厚德载物。
 author: CosySN
 language: zh-CN
 timezone:
@@ -60,10 +60,32 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 Plugins:
 - hexo-generator-feed
+- markdown-it-abbr
+- markdown-it-footnote
+- markdown-it-ins
+- markdown-it-sub
+- markdown-it-sup
+- markdown-it-emoji
+
+anchors:
+  level: 2
+  collisionSuffix: 'v'
+  permalink: true
+  permalinkClass: header-anchor
+  permalinkSymbol: ¶
 
 # Feed Atom
 feed:

@@ -6,6 +6,7 @@
     "version": "3.4.2"
   },
   "dependencies": {
+    "emoji": "^0.3.2",
     "hexo": "^3.4.2",
     "hexo-asset-image": "git+ssh://git@github.com/CodeFalling/hexo-asset-image.git",
     "hexo-browsersync": "^0.2.0",
@@ -21,7 +22,7 @@
     "hexo-migrator-cnblogs": "0.0.4",
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-jade": "^0.3.0",
-    "hexo-renderer-marked": "^0.2.10",
+    "hexo-renderer-markdown-it": "^3.4.1",
     "hexo-renderer-sass": "^0.3.2",
     "hexo-renderer-scss": "^1.0.2",
     "hexo-renderer-stylus": "^0.3.1",

@@ -45,8 +45,9 @@ su git
 ```
 ssh-keygen -t rsa
 ```
-    执行后，会在.ssh目录生成ssh秘钥的配置信息，如下图所示：
-    ![logo](build-private-git-server-using-gogs/ssh_config.png)
+
+执行后，会在.ssh目录生成ssh秘钥的配置信息，如下图所示：
+![logo](build-private-git-server-using-gogs/ssh_config.png)
 
 3. 下载安装包
 我使用的是预编译的二进制包。需要从源码编译的话，请参考一般 Go 语言项目的编译。下载后解包到/home/git/gogs/。文件夹的内容如下。
@@ -76,7 +77,8 @@ $ mysql -u root -p
 ```
 
 
-    gogs运行起来后，由于gogs默认监听的是3000端口，可以用使用[http://服务器IP:3000](http://服务器IP:3000)访问gogs的web页面。
+
+gogs运行起来后，由于gogs默认监听的是3000端口，可以用使用[http://服务器IP:3000](http://服务器IP:3000)访问gogs的web页面。
 
 如果是初次登录该网站的话，需要配置一些信息，将这些信息填写完成后提交就可以了。
 
